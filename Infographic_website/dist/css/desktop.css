@@ -1,0 +1,11 @@
+@media only screen and (min-width: 600px){
+	.content-container {
+	    flex-direction: row;
+	}
+	.charts-container {
+    	width: 65%;
+	}
+	.region-title{
+		font-size: 61px;
+	}
+}

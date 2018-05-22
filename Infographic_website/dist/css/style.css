@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	font-family: Roboto;
+}
+html, body{
+	background: #33373e;
+}
+.app-container{
+	text-align: center;
+    color: white;
+    font-family: sans-serif, Verdana;
+    font-size: 23px;
+}
+.content-container{
+	display:flex;
+	flex-direction: column;
+	width:100%;
+}
+.region-title{
+	
+    letter-spacing: 3px;
+	margin:0px;
+}
+.charts-container{
+	width: auto;
+}
+.map-container{
+	margin-top: 13px;
+	flex: 1;
+}
+.map-bounds{
+	height:483px;
+	position: relative;
+    overflow: hidden;
+    border: 5px solid #2f5064;
+    background: #1d3b56;
+}
+.img-container{
+	transform-origin: 50% 50%;
+}
+.norway{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-width: 600px;
+}
+.county{
+	position: fixed;
+	border-radius: 100%;
+    background: #486493;
+    width: 3px;
+    height: 3px;
+}
+.highlight{
+	background: #92aede;
+}
+.hitbox{
+	cursor:pointer;
+}
+.migrate-in-out{
+}
+.migrate-in{
+	margin-top: 10px;
+}
+.migrate-out{
+}
+
+.municipality-container{
+
+}
+.municipality{
+	color: #85c0d5;
+    background: none;
+    float: left;
+    padding: 5px 5px 5px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.municipality:hover{
+	color:#c2dce5;
+}
+.municipality:focus{
+	color:white;
+}
+.municipality-heading{
+	margin:3px;
+}
+
+.highcharts-credits{
+	display:none;
+}
